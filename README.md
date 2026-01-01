@@ -1,7 +1,7 @@
 # MoE-Diffusion Multimodal World Models for Cognitive Multi-Agent Systems, with H7 gated coherence.
 
 Keith L. Beaudoin (@keithofaptos) with SuperGrok Expert Assistant
-https://github.com/keithofaptos/DGM-H7 , 
+https://github.com/keithofaptos/DGM-H7
 
 James Paul Jackson (@unifiedenergy11)
 https://github.com/jacksonjp0311-gif/Athanor
