@@ -6,7 +6,12 @@ https://github.com/keithofaptos/DGM-H7
 James Paul Jackson (@unifiedenergy11)
 https://github.com/jacksonjp0311-gif/Athanor
 
-December 31, 2025
+v1: December 31, 2025 , v2:  January 3, 2026
+
+v1: https://grok.com/share/bGVnYWN5_c54a1f4e-7095-41e5-ba74-bdaa0013f61f
+
+v2: https://grok.com/share/bGVnYWN5_13838f8b-346a-4224-9107-5ea8c36923e1
+
 
 1
 Abstract
