@@ -854,7 +854,41 @@ Evolutionary prototype enhancing MoE with EvoMoE, diffusion, world models, and c
 - World model for prediction.
 - Multi-agent with Athanor coherence + H7 gating.
 - End-to-end hybrid losses.
+########################################################################
 
+## Installation (-try this first- )
+
+1. Clone repo Bash  git clone https://github.com/keithofaptos/diffusion-moe-multiagent-worldmodel.git
+2. cd diffusion-moe-multiagent-worldmodel 
+3. Install dependencies Bash  pip install torch transformers datasets evaluate sentence-transformers numpy 
+4. Run scripts (CUDA optional for speed)
+    * Distillation demoBash  python evo_distill.py 
+    * World model trainingBash  python train_world.py 
+    * Multi-agent trainingBash  python train_agents.py 
+Expected output example (evo_distill.py first, others similar):
+text
+
+Teacher accuracy: ~0.92xx
+Generating teacher targets...
+Student score: 0.xxxx
+Iteration 1
+...
+New valid student: xx% of teacher
+...
+Best retained xx.xx% of teacher → saved to ./best_student
+
+Training scripts:
+text
+
+Starting H₇-gated evolutionary training...
+Update approved/rejected... H7: x.xx
+Epoch 1 complete. Current H7: x.xxx
+...
+Training done. Model saved.
+
+Dummy data → fast run, placeholder results, saves .pt files.
+
+#########################################################################
 ## Installation
 ```bash
 git clone https://github.com/keithofaptos/EvoMDMWM-CMAS
